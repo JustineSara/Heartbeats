@@ -2393,12 +2393,14 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"manager","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"UI-interact","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Player","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Button_Choice1","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 785702376}
     - {fileID: 1027144325}
     - {fileID: 1688482846}
     - {fileID: 1331509021}
+    - {fileID: 708435114}
 --- !u!4 &1308318922
 Transform:
   m_ObjectHideFlags: 0
@@ -3448,7 +3450,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1688482847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3607,6 +3609,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8063073397250431797, guid: f0271df749728104eac22c3d897fd8ce, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8279798545678494202, guid: f0271df749728104eac22c3d897fd8ce, type: 3}
+      propertyPath: m_DeselectOnBackgroundClick
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3848,6 +3854,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 1378229864}
   - {fileID: 1308318922}
+  - {fileID: 1027144328}
   - {fileID: 872365080}
   - {fileID: 4072106212235466422}
   - {fileID: 6737339626502231809}
@@ -3855,4 +3862,3 @@ SceneRoots:
   - {fileID: 4060933707209632661}
   - {fileID: 372867539}
   - {fileID: 1688482850}
-  - {fileID: 1027144328}
