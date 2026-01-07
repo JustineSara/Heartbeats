@@ -1,0 +1,5 @@
+UI_PanelsA_12.png  _from_  Post-Baroque UI/GUI Kit  _by_  BarelyApes [https://www.gamedevmarket.net/asset/post-baroque-uigui-kit]
+
+[unused] Motion Blur Shader  _from_  URP-Simple-Per-Object-Motion-Blur  _by_  Estradel [https://github.com/Estradel/URP-Simple-Per-Object-Motion-Blur]
+
+
