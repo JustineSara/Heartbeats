@@ -1,0 +1,81 @@
+using UnityEngine;
+using System.Collections;
+using VIDE_Data; //Access VD class to retrieve node data
+using UnityEngine.UI;
+using TMPro;
+using Unity.VisualScripting;
+
+public class DialogueManager : MonoBehaviour
+{
+
+    public GameObject container_NPC;
+    public GameObject container_PLAYER;
+    public TMP_Text text_NPC;
+    public TMP_Text[] text_Choices;
+    public StateMachine myStateManager;
+
+    // Use this for initialization
+    void OnEnable()
+    {
+		Debug.Log(VD.isActive);
+        if (!VD.isActive)
+        {
+            Begin();
+        }
+    }
+
+    void Begin()
+    {
+        VD.OnNodeChange += UpdateUI;
+        VD.OnEnd += End;
+        VD.BeginDialogue(GetComponent<VIDE_Assign>());
+    }
+
+    public void SetPlayerChoice(int choice)
+    {
+        VD.nodeData.commentIndex = choice;
+        VD.Next();
+    }
+
+    void UpdateUI(VD.NodeData data)
+    {
+        if (data.isPlayer)
+        {
+            for (int i = 0; i < text_Choices.Length; i++)
+            {
+                if (i < data.comments.Length)
+                {
+                    text_Choices[i].transform.parent.gameObject.SetActive(true);
+                    text_Choices[i].text = data.comments[i];
+                }
+                else
+                {
+                    text_Choices[i].transform.parent.gameObject.SetActive(false);
+                }
+            }
+            text_Choices[0].transform.parent.GetComponent<Button>().Select();
+        }
+        else
+        {
+            text_NPC.text = data.comments[data.commentIndex];
+            VD.Next();
+        }
+    }
+
+    void End(VD.NodeData data)
+    {
+        VD.OnNodeChange -= UpdateUI;
+        VD.OnEnd -= End;
+        VD.EndDialogue();
+//        Unity.VisualScripting.StateGraphAsset
+//        stateManager.GetComponent<StateGraphAsset>().TriggerUnityEvent("DialogueEnd");
+        myStateManager.TriggerUnityEvent("DialogueEnd");
+//        DialogueEnd.Invoke();
+    }
+
+    void OnDisable()
+    {
+        if (container_NPC != null)
+            End(null);
+    }
+}
