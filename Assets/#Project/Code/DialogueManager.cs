@@ -58,6 +58,17 @@ public class DialogueManager : MonoBehaviour
         else
         {
             text_NPC.text = data.comments[data.commentIndex];
+			// I know 'foreach' are _bad_, to switch to 'for' probably use .ElementAt(i) from LINQ
+			foreach (var item in data.extraVars)
+			{
+				Debug.Log($"{item.Key}: {item.Value}");
+				if (Variables.ActiveScene.IsDefined(item.Key))
+				{
+					Variables.ActiveScene.Set(item.Key, item.Value);
+				} else {
+					Debug.Log($"{item.Key} is not a variable of the Acctive Scene! We do nothing with it.");
+				}
+			}
             VD.Next();
         }
     }
