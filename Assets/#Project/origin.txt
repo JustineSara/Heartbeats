@@ -4,3 +4,7 @@ UI_PanelsA_12.png  _from_  Post-Baroque UI/GUI Kit  _by_  BarelyApes [https://ww
 
 Visual Scripting - Bolt Add-On
 https://github.com/RealityStop/Bolt.Addons.Community
+
+VIDE dialogues
+https://assetstore.unity.com/packages/tools/behavior-ai/vide-dialogues-69932
+https://videdialogues.wordpress.com/tutorial/
