@@ -232,7 +232,7 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "negative",
+                    "name": "Positive",
                     "id": "c426e28e-0775-48d2-9f97-e6b64f3a7e23",
                     "path": "<Keyboard>/numpad3",
                     "interactions": "",
@@ -243,42 +243,9 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "positive",
+                    "name": "Negative",
                     "id": "6643a7a6-f75a-4fe5-9ccf-6c91bb6eeaa8",
                     "path": "<Keyboard>/numpad9",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "time",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "1D Axis",
-                    "id": "1a1c8cae-a420-404e-8f10-a1e8e5f3a339",
-                    "path": "1DAxis",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "time",
-                    "isComposite": true,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "negative",
-                    "id": "4a0c1f1d-753e-450f-8b78-0c85c0c09b06",
-                    "path": "<Keyboard>/pageDown",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "time",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "positive",
-                    "id": "5d97fd41-5f0f-4950-9a6a-b0ef2350be4b",
-                    "path": "<Keyboard>/pageUp",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
