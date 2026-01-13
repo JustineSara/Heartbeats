@@ -1,0 +1,20 @@
+0 : time is normal, heartbeats are normal
+0 : start
+4,307615 : time is fast, heartbeats are slow
+16,12922 : time is normal, heartbeats are normal
+18,43947 : time is slow, heartbeats are fast
+19,20731 : time is normal, heartbeats are normal
+20,48121 : time is slow, heartbeats are fast
+20,76448 : dialogue: missil_turnaround - 0
+0 : time is normal, heartbeats are normal
+0 : start
+4,807124 : time is slow, heartbeats are fast
+5,160283 : time is normal, heartbeats are normal
+8,912242 : time is slow, heartbeats are fast
+9,123949 : time is normal, heartbeats are normal
+12,92228 : time is slow, heartbeats are fast
+13,10338 : time is normal, heartbeats are normal
+16,26664 : time is slow, heartbeats are fast
+16,67418 : dialogue: missil_turnaround - 0
+18,55044 : time is normal, heartbeats are normal
+25,73498 : dialogue: FireCube - 0
