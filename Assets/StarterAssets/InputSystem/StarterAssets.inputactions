@@ -211,6 +211,28 @@
                 },
                 {
                     "name": "",
+                    "id": "56810c67-ba86-4275-b8f2-69b80d76b03f",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";KeyboardMouse",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1eb2865c-d77f-4059-9309-d3e2facc2c81",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";KeyboardMouse",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "7f368620-5ccf-4702-bfa8-198344d61a1c",
                     "path": "<Mouse>/scroll/y",
                     "interactions": "",
