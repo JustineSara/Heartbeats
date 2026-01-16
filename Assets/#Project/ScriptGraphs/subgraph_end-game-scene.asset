@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: subgraph_end-game-scene
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptGraphAsset
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"in","label":"in","summary":null,"hideLabel":true}],"controlOutputDefinitions":[],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":{"$content":false,"$type":"System.Boolean"},"_type":"System.Boolean","key":"is_win","label":"is
+      a win","summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-241.0,"y":-106.0},"guid":"a3d38aec-ebf9-4dda-8012-6da53730379d","$version":"A","$type":"Unity.VisualScripting.GraphInput","$id":"11"},{"kind":"Application","defaultValues":{"name":{"$content":"run_is_won","$type":"System.String"}},"position":{"x":-27.0,"y":-112.0},"guid":"5932e86b-69eb-49fc-9605-ebe100612fa1","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"13"},{"chainable":false,"parameterNames":["sceneName"],"member":{"name":"LoadScene","parameterTypes":["System.String"],"targetType":"UnityEngine.SceneManagement.SceneManager","targetTypeName":"UnityEngine.SceneManagement.SceneManager","$version":"A"},"defaultValues":{"%sceneName":{"$content":"end","$type":"System.String"}},"position":{"x":223.0,"y":-100.0},"guid":"9e3c11bb-bc62-40dd-a250-c717c8cba837","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"15"},{"sourceUnit":{"$ref":"11"},"sourceKey":"in","destinationUnit":{"$ref":"13"},"destinationKey":"assign","guid":"97765dcc-850c-434b-b479-19d94ebc4796","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"assigned","destinationUnit":{"$ref":"15"},"destinationKey":"enter","guid":"ce26c83e-2cff-4c36-8c01-65a3561d057d","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"is_win","destinationUnit":{"$ref":"13"},"destinationKey":"input","guid":"12320fb3-84c0-4bd7-a622-ada85f6cb1e1","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
