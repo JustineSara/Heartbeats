@@ -17,7 +17,6 @@ public class DialogueManager : MonoBehaviour
     // Use this for initialization
     void OnEnable()
     {
-		Debug.Log(VD.isActive);
         if (!VD.isActive)
         {
             Begin();
@@ -61,7 +60,6 @@ public class DialogueManager : MonoBehaviour
 			// I know 'foreach' are _bad_, to switch to 'for' probably use .ElementAt(i) from LINQ
 			foreach (var item in data.extraVars)
 			{
-				Debug.Log($"{item.Key}: {item.Value}");
 				if (Variables.ActiveScene.IsDefined(item.Key))
 				{
 					Variables.ActiveScene.Set(item.Key, item.Value);

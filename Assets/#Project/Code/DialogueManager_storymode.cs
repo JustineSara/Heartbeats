@@ -59,7 +59,6 @@ public class DialogueManager_storymode : MonoBehaviour
 			// I know 'foreach' are _bad_, to switch to 'for' probably use .ElementAt(i) from LINQ
 			foreach (var item in data.extraVars)
 			{
-				Debug.Log($"{item.Key}: {item.Value}");
 				if (Variables.ActiveScene.IsDefined(item.Key))
 				{
 					Variables.ActiveScene.Set(item.Key, item.Value);
