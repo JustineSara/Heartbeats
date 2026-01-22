@@ -1,0 +1,261 @@
+Edit the dialogue on the go.
+You can edit and add comments, edit the tags, and set node type.
+Do not attempt to add more nodes: the number of nodes must match when importing the text file.
+Do not modify the IDs.
+Do not add or remove empty lines.
+Do not restructure the data.
+
+Dialogue name: StartDialogue
+---------------------------------
+#NODEID#
+0
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+From the past, I inherited a weak heart
+... but I am not ready to let go yet
+---------------------------------
+#NODEID#
+1
+#TAG#
+
+#ISPLAYER#
+True
+---
+#COMMENT#
+Next
+#COMMENT#
+Skip introduction
+---------------------------------
+#NODEID#
+3
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+go to game
+---------------------------------
+#NODEID#
+4
+#TAG#
+
+#ISPLAYER#
+True
+---
+#COMMENT#
+Next
+#COMMENT#
+Previous
+#COMMENT#
+Skip introduction
+---------------------------------
+#NODEID#
+5
+#TAG#
+
+#ISPLAYER#
+True
+---
+#COMMENT#
+Next
+#COMMENT#
+Previous
+#COMMENT#
+Skip introduction
+---------------------------------
+#NODEID#
+8
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+I looked for a solution, and I found one!
+A time-artifact could keep my futur mechanical heart beating.
+---------------------------------
+#NODEID#
+9
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+I found the artifact, I drew the schematics,
+and time is upon me.
+---------------------------------
+#NODEID#
+10
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+Doc had agreed to operate, and I can wait no longer.
+---------------------------------
+#NODEID#
+11
+#TAG#
+
+#ISPLAYER#
+True
+---
+#COMMENT#
+Next
+#COMMENT#
+Previous
+#COMMENT#
+Skip introduction
+---------------------------------
+#NODEID#
+14
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+I wake up. And everything seems fine. ...
+---------------------------------
+#NODEID#
+15
+#TAG#
+
+#ISPLAYER#
+True
+---
+#COMMENT#
+Next
+#COMMENT#
+Previous
+#COMMENT#
+Skip introduction
+---------------------------------
+#NODEID#
+16
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+... and it seems I can change time.
+---------------------------------
+#NODEID#
+17
+#TAG#
+
+#ISPLAYER#
+True
+---
+#COMMENT#
+Next
+#COMMENT#
+Previous
+#COMMENT#
+Skip introduction
+---------------------------------
+#NODEID#
+18
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+I have only a few heartbeats left.
+---------------------------------
+#NODEID#
+19
+#TAG#
+
+#ISPLAYER#
+True
+---
+#COMMENT#
+Next
+#COMMENT#
+Previous
+#COMMENT#
+Skip introduction
+---------------------------------
+#NODEID#
+21
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+After a few seconds, I decide to act. On my way out, I find a small message under my door, calling for help. What better way to use the little life I have left?
+---------------------------------
+#NODEID#
+22
+#TAG#
+
+#ISPLAYER#
+True
+---
+#COMMENT#
+Next
+#COMMENT#
+Previous
+#COMMENT#
+Skip introduction
+---------------------------------
+#NODEID#
+23
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+Some children are held captive in a factory nearby. I go there and infiltrate.
+Now, I need to deactivate that firing tower so the children can escape.
+---------------------------------
+#NODEID#
+24
+#TAG#
+
+#ISPLAYER#
+True
+---
+#COMMENT#
+Next (go to game)
+#COMMENT#
+Previous
+---------------------------------
+#NODEID#
+26
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+I can slow time down to catch a falling tea cup. Or speed it up when things get boring.
+It is fun, but a count-down pounds loud in my head.
+---------------------------------
+#NODEID#
+27
+#TAG#
+
+#ISPLAYER#
+True
+---
+#COMMENT#
+Next
+#COMMENT#
+Previous
+#COMMENT#
+Skip introduction
+---------------------------------
+#END#
