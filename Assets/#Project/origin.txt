@@ -8,3 +8,7 @@ https://github.com/RealityStop/Bolt.Addons.Community
 VIDE dialogues
 https://assetstore.unity.com/packages/tools/behavior-ai/vide-dialogues-69932
 https://videdialogues.wordpress.com/tutorial/
+
+SOUNDS
+[nope] Steps on metal by Luisa_Sanchez -- https://freesound.org/s/813386/ -- License: Creative Commons 0
+Deep Cinematic Boom by Alliare -- https://freesound.org/s/825864/ -- License: Creative Commons 0
